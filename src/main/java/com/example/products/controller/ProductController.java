@@ -13,7 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/products")
-public class ProductsController {
+public class ProductController {
     private final ProductsService productService;
     @GetMapping
     public ResponseEntity<List<ProductModel>> getAllProducts(){
